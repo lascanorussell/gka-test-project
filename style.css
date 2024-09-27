@@ -1,0 +1,121 @@
+:root {
+  /*
+   * Main font
+   */
+  --main-font: 'Poppins', sans-serif;
+  
+  /*
+   * Body background
+   */
+  --body-bg: #f5f5f5;
+  
+  /*
+   * Navigation
+   */
+  --nav-font-size: 20px;
+  --nav-font-weight: 700;
+  --nav-font-color: #444444;
+  --nav-bg: #ffffff;
+  
+  /*
+   * Colors
+   */
+  --primary-color: #157aff;
+  --secondary-color: #00b947;
+}
+
+* {
+  /*
+   * Reset box model
+   */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*
+   * Set font
+   */
+  font-family: var(--main-font) !important;
+  
+  /*
+   * Set background
+   */
+  background-color: var(--body-bg) !important;
+}
+
+.bg-primary {
+  /*
+   * Set background color to primary color
+   */
+  background-color: var(--primary-color) !important;
+}
+
+.text-primary {
+  /*
+   * Set text color to primary color
+   */
+  color: var(--primary-color) !important;
+}
+
+.border-primary {
+  /*
+   * Set border color to primary color
+   */
+  border-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  /*
+   * Set background color to secondary color
+   */
+  background-color: var(--secondary-color) !important;
+}
+
+.text-secondary {
+  /*
+   * Set text color to secondary color
+   */
+  color: var(--secondary-color) !important;
+}
+
+.border-secondary {
+  /*
+   * Set border color to secondary color
+   */
+  border-color: var(--secondary-color) !important;
+}
+
+nav .nav-link {
+  /*
+   * Set navigation link font
+   */
+  font-size: var(--nav-font-size) !important;
+  font-weight: var(--nav-font-weight) !important;
+  color: var(--nav-font-color) !important;
+}
+
+nav .nav-link a:hover {
+  /*
+   * Set navigation link hover color
+   */
+  color: var(--primary-color) !important;
+}
+
+nav .buttons{
+  /*
+   * Set navigation buttons font
+   */
+  font-size: var(--nav-font-size) !important;
+  font-weight: var(--nav-font-weight) !important;
+  color: var(--nav-font-color) !important;
+}
+
+/* Slider */
+.slider {
+  /*
+   * Set slider transition
+   */
+  transition: transform 0.3s ease-in-out;
+}
